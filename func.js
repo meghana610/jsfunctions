@@ -7,19 +7,19 @@
 // syntax
 // Function declaration
 
-// sayHello()
+sayHello()
 
-// function sayHello() {
-//     console.log("Hello")
-// }
+function sayHello() {
+    console.log("Hello")
+}
 
-// // function calling
-// sayHello()
-// sayHello()
-// // this is called js hosting
+// function calling
+sayHello()
+sayHello()
+// this is called js hosting
 
-// let a = 10;
-// console.log(a)
+let a = 10;
+console.log(a)
 
 // functions with parameters
 
@@ -43,3 +43,18 @@ function multiple(a, b, c){
 
 multiple(100, 50, 10)
 multiple(1, 2, 3)
+
+let fname = "maggie";
+let age = "20"
+
+function sayName() {
+    console.log("My Name is " + fname + "age is " + age)
+    console.log('My Name is ' + fname + 'age is ' + age)
+    console.log(`My Name is ${fname} age is ${age}`)
+}
+// double
+// single
+// template literal (introduced in es6 after 2015)
+
+sayName()
+
